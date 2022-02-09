@@ -2,10 +2,11 @@
 #define GL_VIEWER_H
 
 #include "gl_arcball.h"
+
 #ifndef __APPLE__
-#include <GL/glut.h>
+    #include <GL/glut.h>
 #else
-#include <GLUT/glut.h>
+    #include <GLUT/glut.h>
 #endif
 
 class gl_viewer
